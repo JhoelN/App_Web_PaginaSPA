@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.encabezado {
+    height: 70px;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-derecha {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-derecha span{
+    padding: 0px 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+}
+
+.Avatar{
+    display: flex;
+    align-items: center;
+    padding: 0px 25px
+}
+
+.lenguage {
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+}
+
+.flecha{
+    display: flex;
+    align-items: center;
+   padding: 0px 10px;
+}
+
+.Fondo {
+   position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Fondo img {
+   display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el texto sobre la imagen */
+.imagentexto {
+   position: absolute;
+   top: 10%; 
+   left: 10%;
+   text-align: left;
+}
+
+.imagentexto h1 {
+   font-family: 'Romanesco', cursive;
+   font-size: 96px;
+   font-weight: normal;
+   margin-bottom: 10px;
+
+}
+
+.imagentexto h2 {
+   font-family: 'Inter', sans-serif;
+   font-size: 32px;
+   font-weight: SemiBold;
+   line-height: 1.5;
+   margin-top: 10px;
+   
+}
+
+ .Reservar-Codigo{
+    background: #F2F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+ }
+
+ .Reservar{
+    display: flex;
+    align-items: center;
+ }
+
+ .Reservar div{
+    background-color: #ffffff;
+    align-items: center;
+    height: 65px;
+    width: 285px;
+    border-radius: 15px;
+   
+ }
+ .Reservar span{
+    padding: 0px 30px;
+ }
+
+ .Codigo{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+ }
+ 
+ .Codigo div{
+    background-color: #ffffff;
+    height: 65px;
+    width: 190px;
+    border-radius: 15px;
+    color: #9E9A9A;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+
+ }
+
+ .Codigo span{
+    padding: 0px 15px 0px 20px;
+  
+ }
+
+ .Masajes{
+   
+   display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+ }
+
+ .Pies{
+    margin-left: 50px;
+    margin-right: 134px;
+    margin-top: 100px;
+    
+ }
+
+ .Relajante{
+    margin-right: 134px;
+    margin-top: 100px;
+ }
+
+ .Bambu{
+    margin-top: 100px;
+    margin-right: 50px;
+ }
+
+ .Titulo-2{
+
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    height: 70px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 32px;
+    display: flex ;
+    align-items:center;
+    justify-content: center;
+    padding: 0px 50px;
+    white-space: nowrap;
+    font-weight: bold;
+ }
+
+ .Masajes span{
+    display: flex;
+
+ }
+
+.Precio-Boton{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.Precio{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px ;
+    color: #000000;
+    margin: 20px ;
+    
+}
+
+.Boton{
+   display: flex;
+   align-items: center;
+   border-radius: 35px;
+   background-color: #A3A656;
+   font-weight: bold;
+   height: 50px;
+   width: 155px;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   color: #FFFFFF;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.Boton:hover {
+   background-color: #384001;
+}
+
+/*  Comienza la caja de beneficios*/
+
+.Beneficios{
+   height: 770px; 
+   background-color:#F2F6F6;
+   
+   
+ }
+
+.Beneficios h1 {
+  text-align: center;
+  padding: 35px 0px 65px 0px;
+} 
+   
+/* Planes gold, premium, plate  */
+
+.Planes{
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+   align-items: center;
+   align-items: flex-start;
+ 
+}
+
+.Gold, .Premium, .Plate {
+   display: flex;
+   flex-direction: column; /* Elementos organizados en columna */
+   align-items: center; /* Centrar horizontalmente */
+   justify-content: center; /* Centrar verticalmente */
+  
+}
+
+.Gold img{
+   display: block;
+}
+
+.Gold span{
+   font-size: 32px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+.Boton-VerCondiciones {
+   display: flex;
+   align-items: center; /* Centra el contenido del botón verticalmente */
+   justify-content: center; /* Centra el contenido del botón horizontalmente */
+   border-radius: 35px;
+   background-color: #A3A656;
+   font-weight: bold;
+   height: 50px;
+   width: 300px;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   color: #FFFFFF;
+   cursor: pointer;
+   margin-bottom: 30px;
+   margin-top: 40px
+}
+.Boton-VerCondiciones:hover {
+   background-color: #384001;
+}
+
+.Gold ul{
+   background-color: #F2F6F6;
+}
+
+.Premium img{
+   display: block;
+}
+
+.Premium span{
+   font-size: 32px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+.Premium ul{
+   background-color: #F2F6F6;
+}
+
+.Plate img{
+   display: block;
+}
+
+.Plate span{
+   font-size: 32px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+
+.BordeImagenes {
+   width: 233px; 
+   height: 233px; 
+   border: 11px solid #384001;
+   border-radius: 50%;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   background-color: #FFFFFF; 
+}
+
+.Gold ul li, .Premium ul li, .Plate ul li {
+   margin-bottom: 10px; 
+}
+
+.Pie-de-pagina{
+   display: flex;
+   align-items: center;
+   background-color:#384001;
+   height: 97px;  
+   justify-content: space-between;
+   padding: 0px 70px;
+}
+
+.Menu-abajo ul {
+   list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Menu-abajo ul li{
+   display: inline;
+   padding: 0px 90px 0px 0px;
+   text-decoration: none;
+   color: #A3A656;
+}
+
+.Menu-abajo ul li a {
+   text-decoration: none;
+   color: #A3A656;
+}
+
+.Redes-Sociales{
+   display: flex;
+   text-transform: uppercase;
+   align-items: center;
+
+
+}
+.Redes-Sociales span{
+   color: #A3A656;
+   padding: 0px 30px;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+}
+.LogosAbajo{
+   display: flex;
+   align-items: center;
+
+}
+
+.Facebook {
+   display: flex;
+   align-items: center;
+  margin-right: 30px;
+
+}
+.Twiter{
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+}
+
+.Youtube img{
+   display: flex;
+   align-items: center;
+}
+
+.menu li a:hover {
+   color: #FFFF00; 
+}
+
+.Menu-abajo li a:hover {
+   color: #FFFF00; 
+}
